@@ -2,7 +2,7 @@
 
 Website for KNR Platforms: our own AI-powered platforms open to the public (Lumarcs, Veyra, Kairen, FlipLab) and custom apps and platforms built for clients.
 
-It is a standalone Next.js app that lives in the `knr-platforms/` folder of the KNR Studio repository. It shares no code with the KNR Studio website at the repository root, so it can be moved to its own repository at any time by copying this folder.
+It is a standalone Next.js app. It used to live in the `knr-platforms/` folder of the [KNR Studio repository](https://github.com/kraekar-code/knr-studio), whose history for that folder this repository keeps; the two sites share no code.
 
 ## Stack
 
@@ -14,10 +14,7 @@ It is a standalone Next.js app that lives in the `knr-platforms/` folder of the 
 
 ## Run locally
 
-Run every command from this folder:
-
 ```bash
-cd knr-platforms
 npm install
 npm run dev        # http://localhost:3000
 npm run build      # production build
